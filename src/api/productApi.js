@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://gestion-produits-backend-production.up.railway.app/api', 
+  baseURL: 'https://wjd.up.railway.app/api', 
 });
 
 export const getProducts = () => api.get('/products');
